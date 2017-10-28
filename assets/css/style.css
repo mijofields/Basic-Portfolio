@@ -26,11 +26,13 @@ h1,h2{
 
 }
 
-.main-section{
+#main-section{
 
-	max-width: 70%;
+	max-width: 650px;
 	float: left;
-	
+	background-color: #ffffff
+	border: 1px solid #dddddd;
+	margin: 5px;
 
 }
 
@@ -52,4 +54,23 @@ p{
 
 	max-height: 40px;
 	max-width: 40px;
+}
+
+.right{
+
+	word-spacing: 15px;
+	float:left;
+	margin-right: 25px;
+
+}
+
+header{
+
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+
+body{
+
+	background-image: src="C:\Users\mikeh\Desktop\CodingBootcamp\HTML_CSS\Homework\assets\images\intersection.png"
 }
