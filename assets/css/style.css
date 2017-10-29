@@ -42,7 +42,7 @@ h1,h2{
 
 }
 
-p{
+p, form{
 	color:#777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -101,6 +101,7 @@ body{
 
 footer{
 
+	font-size: 10px;
 	position: fixed;
     bottom: 0;	
 	background-color: #666666;
@@ -112,5 +113,17 @@ footer{
 	color:white;
 	text-align: center;
 
+
+}
+
+
+.button{
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	background-color:#4aaaa5;
+	font-size: 16px;
+	border-radius: 8px;
+	position: static;
 
 }
