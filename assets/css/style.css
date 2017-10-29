@@ -38,7 +38,7 @@ h1,h2{
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	margin: 5px 5px 5px 0px;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 
 }
 
@@ -126,4 +126,18 @@ footer{
 	border-radius: 8px;
 	position: static;
 
+}
+
+.portpic{
+
+	display: inline-block;
+	margin: 8px;
+	border: 1px solid #4aaaa5;
+
+}
+
+.bigbreak{
+
+	visibility:hidden;
+	line-height: 50px;
 }
