@@ -10,9 +10,11 @@
   	width:25%;
   	/*height:5%;*/
   	/*padding: 30px 0px 0px;*/
-  	text-align: center;
+  	/*text-align: center;*/
   	/*margin: 0px;*/
-  	display: inline-block;
+  	/*display: inline-block;*/
+  	display: flex;
+  	justify-content: center;
    
 
 }
@@ -39,7 +41,7 @@ h1,h2{
 #main-section{
 
 	width:65%;
-	display: inline-block;
+	/*display: inline-block;*/
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	margin: 5px 5px 5px 0px;
@@ -56,15 +58,15 @@ p, form{
 
 #side-bar{
 
-	width: 30%;
+	width: 35%;
 	height: 200px;
 	margin: 5px;
-	display: inline-block;
+	/*display: inline-block;*/
 	border: 1px solid #dddddd;
 	background: #ffffff;
 	text-align: left;
-	position: absolute;
-	top: 1px;
+	/*position: absolute;*/
+	/*top: 1px;*/
 	/*float: left;*/
 
 }
@@ -87,7 +89,9 @@ header{
 
 	background-color: #ffffff;
 	border-bottom: 1px solid #cccccc;
-	height: 1.5;
+	/*height: 1.5;*/
+	display: flex;
+	justify-content: space-between;
 
 }
 
@@ -102,9 +106,12 @@ body{
 
 #next2head{
 
-	display: inline-block;
-	margin-left: 420px;
-	word-spacing: 40px;
+	display: flex;
+	width: 25%;
+	justify-content: space-around;
+	align-items: center;
+	/*margin-left: 420px;*/
+	/*word-spacing: 40px;*/
 	font-weight: bold;
 
 }
@@ -186,14 +193,15 @@ footer{
 
 .wrapper{
 
-	margin: auto;
+	display: flex;
+	justify-content: space-around;
     /* overflow: auto; */
     /* text-align: center; */
     /* height: 70vh; */
     /* height: auto; */
     /* clear: both; */
-    width: 89%;
-    position: relative;
+    /*width: 89%;*/
+    /*position: relative;*/
 
 
 
