@@ -56,7 +56,7 @@ h1,h2{
 #main-section-pic{
 
 	width:55%;
-	max-height: 850px;
+	/*max-height: 850px;*/
 	/*height: 65%;*/
 	/*display: inline-block;*/
 	background: #ffffff;
@@ -85,7 +85,6 @@ p, form{
 	border: 1px solid #dddddd;
 	background: #ffffff;
 	text-align: left;
-	/*position: absolute;*/
 	/*top: 1px;*/
 	/*float: left;*/
 
@@ -95,6 +94,7 @@ p, form{
 
 	max-height: 60px;
 	max-width: 60px;
+	
 }
 
 .right{
@@ -144,7 +144,11 @@ body{
 #leftpics{
 	
 	/*margin: auto;*/
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	/*flex-shrink: 1;*/
+	/*flex: none;*/
+	/*text-align: center;*/
 	/*padding-left: 40px;*/
 }
 
@@ -171,7 +175,7 @@ footer{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
 	background-color:#4aaaa5;
-	font-size: 16px;
+	font-size: 20px;
 	border-radius: 8px;
 	position: static;
 
@@ -180,6 +184,8 @@ footer{
 .portpic{
 
 	display: inline-block;
+	/*display: flex;*/
+	/*flex-shrink: */
 	margin: 5px;
 	border: 1px solid #4aaaa5;
 	
