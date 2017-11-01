@@ -40,16 +40,36 @@ h1,h2{
 
 #main-section{
 
-	width:65%;
+	width:55%;
 	/*display: inline-block;*/
 	background: #ffffff;
 	border: 1px solid #dddddd;
-	margin: 5px 5px 5px 0px;
-	padding-bottom: 20px;
+	/*margin: 5px 5px 5px 0px;*/
+	margin-top: 5px;
+	align-items: center;
+	/*padding-bottom: 20px;*/
 	text-align: left;
 	/*float: left;*/
 
 }
+
+#main-section-pic{
+
+	width:55%;
+	max-height: 850px;
+	/*height: 65%;*/
+	/*display: inline-block;*/
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	/*margin: 5px 5px 5px 0px;*/
+	margin-top: 5px;
+	/*align-items: center;*/
+	/*padding-bottom: 10%;*/
+	text-align: center;
+
+}
+	
+
 
 p, form{
 	color:#777777;
@@ -58,7 +78,7 @@ p, form{
 
 #side-bar{
 
-	width: 35%;
+	width: 30%;
 	height: 200px;
 	margin: 5px;
 	/*display: inline-block;*/
@@ -129,7 +149,7 @@ footer{
 	position: fixed;
     bottom: 0;	
 	background-color: #666666;
-	height: 55px;
+	height: 30px;
 	padding-top: 20px;
 	width: 100%;
 	border-top: 5px solid #4aaaa5;
@@ -165,7 +185,7 @@ footer{
 .bigbreak{
 
 	visibility:hidden;
-	line-height: 50px;
+	line-height: 65px;
 }
 
 .placeholder{
@@ -176,9 +196,8 @@ footer{
 	width:300px;
 	height: 25px;
 	text-align: center;
-
 	position: relative;
-	left: 6px;
+	left: 1px;
 	bottom: 60px;
 }
 
@@ -188,20 +207,23 @@ footer{
 	height: 200px;
 	display:inline-block;
 	margin-bottom: 5px;
-
+	position: relative;
 }
 
 .wrapper{
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+
+
+
     /* overflow: auto; */
     /* text-align: center; */
     /* height: 70vh; */
     /* height: auto; */
     /* clear: both; */
-    /*width: 89%;*/
     /*position: relative;*/
+    /*width: 80%;*/
 
 
 
