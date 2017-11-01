@@ -105,6 +105,11 @@ p, form{
 
 }
 
+.left{
+
+	text-align: left;
+}
+
 header{
 
 	background-color: #ffffff;
