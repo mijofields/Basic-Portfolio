@@ -1,6 +1,6 @@
 #headbox{
 
-	font-family: 'Saira Semi Condensed', sans-serif;
+	font-family: 'Saira Semi Condensed', serif;
 	font-size: 2em;
     font-weight: bold;
 	color: white;
@@ -23,8 +23,9 @@
 h1,h2{
 
 	font-family: 'Saira Semi Condensed', sans-serif;
+	font-weight: bold;
 	color:#4aaaa5;
-	padding-bottom: 5px;
+	/*padding-bottom: 5px;*/
 	padding-left: 5px;
 	border-bottom: 1pt solid #777777;
 
@@ -45,7 +46,9 @@ h1,h2{
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	/*margin: 5px 5px 5px 0px;*/
-	margin-top: 5px;
+	margin-top: 2%;
+	margin-bottom: 6%;
+	/*margin-bottom: 15px;*/
 	/*align-items: center;*/
 	/*padding-bottom: 20px;*/
 	text-align: left;
@@ -62,8 +65,8 @@ h1,h2{
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	/*margin: 5px 5px 5px 0px;*/
-	margin-top: 5px;
-	margin-bottom: 20px;
+	margin-top: 2%;
+	margin-bottom: 6%;
 	/*align-items: center;*/
 	/*padding-bottom: 25px;*/
 	text-align: center;
@@ -81,7 +84,7 @@ p, form{
 
 	width: 30%;
 	height: 200px;
-	margin: 5px;
+	margin: 2%;
 	/*display: inline-block;*/
 	border: 1px solid #dddddd;
 	background: #ffffff;
@@ -164,6 +167,7 @@ footer{
 	padding-top: 20px;
 	width: 100%;
 	border-top: 5px solid #4aaaa5;
+	margin-top: 10%;
 	font-family: 'Saira Semi Condensed', sans-serif;
 	color:white;
 	text-align: center;
